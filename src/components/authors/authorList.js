@@ -16,8 +16,8 @@ class AuthorList extends React.Component{
       <div>
         <table className="table">
           <thead>
-            <th>ID</th>
-            <th>Name</th>
+            <tr>ID</tr>
+            <tr>Name</tr>
           </thead>
           <tbody>
               {this.props.authors.map(createAuthorRow, this)}
